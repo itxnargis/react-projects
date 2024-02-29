@@ -6,6 +6,7 @@ import ImageSlider from './components/image-slider/index';
 import LoadMoreData from './components/load-more-data/index';
 import QRCodeGenerator from './components/QR-code-generator/index';
 import DarkLightTheme from './components/dark-light-theme/index';
+import ScrollIndicator from './components/scroll-indicator/index';
 
 function App() {
   return (
@@ -32,7 +33,23 @@ function App() {
       {/* <QRCodeGenerator /> */}
 
        {/* DarkLightTheme components */}
-       <DarkLightTheme />
+       {/* <DarkLightTheme /> */}
+
+         {/* ScrollIndicator components */}
+       <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} />
+
+         {/* DarkLightTheme components */}
+       {/* <DarkLightTheme /> */}
+
+         {/* DarkLightTheme components */}
+       {/* <DarkLightTheme /> */}
+
+         {/* DarkLightTheme components */}
+       {/* <DarkLightTheme /> */}
+
+         {/* DarkLightTheme components */}
+       {/* <DarkLightTheme /> */}
+
     </div>
   );
 }
