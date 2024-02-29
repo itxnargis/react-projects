@@ -7,6 +7,7 @@ import LoadMoreData from './components/load-more-data/index';
 import QRCodeGenerator from './components/QR-code-generator/index';
 import DarkLightTheme from './components/dark-light-theme/index';
 import ScrollIndicator from './components/scroll-indicator/index';
+import ModalTest from './components/custom-modal/modal-test';
 
 function App() {
   return (
@@ -36,10 +37,10 @@ function App() {
        {/* <DarkLightTheme /> */}
 
          {/* ScrollIndicator components */}
-       <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} />
+       {/* <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} /> */}
 
-         {/* DarkLightTheme components */}
-       {/* <DarkLightTheme /> */}
+         {/* ModalTest components */}
+       <ModalTest />
 
          {/* DarkLightTheme components */}
        {/* <DarkLightTheme /> */}
