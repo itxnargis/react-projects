@@ -46,6 +46,10 @@
   justify-content: center;
   height: 100vh;
 }
+#custom-id {
+  text-align: center;
+}
+
 @keyframes animateModal {
   from {
     top: -200px;

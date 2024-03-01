@@ -8,6 +8,7 @@ import QRCodeGenerator from './components/QR-code-generator/index';
 import DarkLightTheme from './components/dark-light-theme/index';
 import ScrollIndicator from './components/scroll-indicator/index';
 import ModalTest from './components/custom-modal/modal-test';
+import GithubProfileFinder from './components/github-profile-finder/github';
 
 function App() {
   return (
@@ -40,10 +41,10 @@ function App() {
        {/* <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} /> */}
 
          {/* ModalTest components */}
-       <ModalTest />
+       {/* <ModalTest /> */}
 
-         {/* DarkLightTheme components */}
-       {/* <DarkLightTheme /> */}
+         {/* GithubProfileFinder components */}
+       <GithubProfileFinder />
 
          {/* DarkLightTheme components */}
        {/* <DarkLightTheme /> */}
