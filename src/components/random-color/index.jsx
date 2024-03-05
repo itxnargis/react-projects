@@ -57,7 +57,7 @@ export default function RandomColorGenerator() {
       <div className="type-color">
         <div className="color">
         <h3>{typeOfColor === "rgb" ? "RGB Color" : "HEX Color"}</h3>
-        <h2>{color}</h2>
+        <h2 className="code">{color}</h2>
         </div>
       </div>
     </div>
