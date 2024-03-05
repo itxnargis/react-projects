@@ -15,7 +15,7 @@ function App() {
     <div>
       <Accordian />
       <RandomColorGenerator />
-      <StarRating noOfStars={5} />
+      <StarRating noOfStars={10} />
       <ImageSlider
         url={'https://picsum.photos/v2/list'}
         limit={'10'}
