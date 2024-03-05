@@ -29,7 +29,7 @@ export default function QRCodeGenerator() {
           Generate
         </button>
       </div>
-      <div>
+      <div className="QR-code">
         <QRCode id="qr-code-value" value="qrCode" size={400} />
       </div>
     </div>
