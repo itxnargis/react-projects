@@ -13,44 +13,24 @@ import GithubProfileFinder from './components/github-profile-finder/github';
 function App() {
   return (
     <div>
-      {/* Accordian components  */}
-      {/* <Accordian /> */}
-
-      {/* RandomColorGenerator components  */}
-      {/* <RandomColorGenerator /> */}
-
-      {/* StarRating components  */}
-      {/* <StarRating noOfStars={5} /> */}
-
-      {/* image slider components  */}
-      {/* <ImageSlider
+      <Accordian />
+      <RandomColorGenerator />
+      <StarRating noOfStars={5} />
+      <ImageSlider
         url={'https://picsum.photos/v2/list'}
         limit={'10'}
-        page={"1"} /> */}
+        page={"1"} />
+      <LoadMoreData />
+      <QRCodeGenerator />
+      <DarkLightTheme />
+      <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} />
+      <ModalTest />
+      <GithubProfileFinder />
 
-      {/* LoadMoreData components  */}
-      {/* <LoadMoreData /> */}
+      {/* <DarkLightTheme /> */}
 
-       {/* QRCodeGenerator components */}
-      {/* <QRCodeGenerator /> */}
-
-       {/* DarkLightTheme components */}
-       {/* <DarkLightTheme /> */}
-
-         {/* ScrollIndicator components */}
-       {/* <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} /> */}
-
-         {/* ModalTest components */}
-       {/* <ModalTest /> */}
-
-         {/* GithubProfileFinder components */}
-       <GithubProfileFinder />
-
-         {/* DarkLightTheme components */}
-       {/* <DarkLightTheme /> */}
-
-         {/* DarkLightTheme components */}
-       {/* <DarkLightTheme /> */}
+      {/* DarkLightTheme components */}
+      {/* <DarkLightTheme /> */}
 
     </div>
   );
